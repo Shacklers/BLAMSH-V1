@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #000000;
+    --font-header: 'Roboto', sans-serif;
+    --font-size_genders: 15px;
+    --font-size_logo:20px;
+    --font-colour-p__logo: whitesmoke;
+  }
+
+
+body{
+   
+    color:var(--font-colour-p__logo);
+    
+    
+    background: rgb(174,31,186);
+    background: linear-gradient(90deg, rgba(174,31,186,1) 23%, rgba(252,102,69,1) 73%);
+   
+}
+
+p,a{
+    color: whitesmoke;
+    
+    
+}
+
+li,a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+main{
+    height: 1000px;
+}
