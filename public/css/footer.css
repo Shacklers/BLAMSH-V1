@@ -94,9 +94,9 @@ footer{
 
 
 @media(min-width:1280px){
-
+   
     footer h3{
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .footer__ayuda li a, .avisos-condiciones__opciones a{
@@ -104,16 +104,15 @@ footer{
     }
 
     .footer__redes{
-        height: 15%;
+        height: 15%;   
     }
 
     .redes__li{  
-        width:10%;
-       
+        width:5%;
     }
 
     .redes__li .redesli__a{
         height: 60%;
-        width:30%;
+        width: 50%;
     }
 }

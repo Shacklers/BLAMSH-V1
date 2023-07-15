@@ -17,10 +17,13 @@ body{
    
     color:var(--font-colour-p__logo);
     
-    
+    /*
     background: rgb(174,31,186);
     background: linear-gradient(90deg, rgba(174,31,186,1) 23%, rgba(252,102,69,1) 73%);
-   
+   */
+
+   background: rgb(24,0,36);
+    
 }
 
 p,a{
