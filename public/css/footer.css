@@ -96,7 +96,7 @@ footer{
 @media(min-width:720px){
    footer{
     height: auto;
-    gap:10px;
+    gap:30px;
    }
     footer h3{
         font-size: 30px;
@@ -105,9 +105,17 @@ footer{
     .footer__ayuda li a, .avisos-condiciones__opciones a{
         font-size: 12px;
     }
-
+   
     .footer__ayuda li a:hover, .avisos-condiciones__opciones a:hover{
         color:aliceblue;
+    }
+
+    .footer__ayuda ul{
+        height: 160px;
+    }
+
+    .footer__ayuda li{
+        height:30px;
     }
 
     .footer__redes a:hover{
@@ -124,6 +132,6 @@ footer{
 
     .redes__li .redesli__a{
         height: 90%;
-        width: 50%;
+        width: 40%;
     }
 }
